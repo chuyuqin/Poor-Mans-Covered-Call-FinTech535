@@ -1,0 +1,94 @@
+[
+  {
+    "strategy": "pmcc",
+    "ending_equity": 64469.99999999988,
+    "net_profit": 14469.999999999884,
+    "total_return": 0.28939999999999766,
+    "cagr": 0.08856595750499552,
+    "max_drawdown": -0.08859947849132987,
+    "annualized_volatility": 0.0689559529603093,
+    "sharpe_zero_rf": 1.2698591408347966,
+    "initial_gross_capital": 2810.65,
+    "initial_net_capital": 2666.3,
+    "average_gross_long_asset_value": 6385.658244680851,
+    "option_leg_fills": 80,
+    "stock_fills": 0,
+    "short_calls_opened": 36,
+    "short_premiums_collected": 9064.0,
+    "short_buyback_cost": 8382.0,
+    "assignments": 0,
+    "fees": 52.00000000000001,
+    "carried_mark_days": 0,
+    "short_exposure_days": 715,
+    "long_exposure_days": 724,
+    "skipped_decisions": {
+      "no_signal_pair": 27,
+      "no_signal_short": 9
+    },
+    "annual_returns": {
+      "2023": 0.11284199999999922,
+      "2024": 0.10982870883737261,
+      "2025": 0.04399448125765093
+    }
+  },
+  {
+    "strategy": "covered_call",
+    "ending_equity": 65588.1999999999,
+    "net_profit": 15588.199999999895,
+    "total_return": 0.31176399999999793,
+    "cagr": 0.09483350102463084,
+    "max_drawdown": -0.08877120999282495,
+    "annualized_volatility": 0.07394052269505275,
+    "sharpe_zero_rf": 1.2670345139509516,
+    "initial_gross_capital": 8585.0,
+    "initial_net_capital": 8585.0,
+    "average_gross_long_asset_value": 17426.468085106382,
+    "option_leg_fills": 72,
+    "stock_fills": 2,
+    "short_calls_opened": 36,
+    "short_premiums_collected": 8986.0,
+    "short_buyback_cost": 7848.0,
+    "assignments": 0,
+    "fees": 46.800000000000004,
+    "carried_mark_days": 0,
+    "short_exposure_days": 741,
+    "long_exposure_days": 0,
+    "skipped_decisions": {
+      "no_signal_short": 10
+    },
+    "annual_returns": {
+      "2023": 0.13446099999999928,
+      "2024": 0.10633067157002252,
+      "2025": 0.04515616024042868
+    }
+  },
+  {
+    "strategy": "stock",
+    "ending_equity": 64497.0,
+    "net_profit": 14497.0,
+    "total_return": 0.2899400000000001,
+    "cagr": 0.08871814297015668,
+    "max_drawdown": -0.11398790021487026,
+    "annualized_volatility": 0.09260233830843051,
+    "sharpe_zero_rf": 0.9676917941310677,
+    "initial_gross_capital": 8585.0,
+    "initial_net_capital": 8585.0,
+    "average_gross_long_asset_value": 17426.468085106382,
+    "option_leg_fills": 0,
+    "stock_fills": 2,
+    "short_calls_opened": 0,
+    "short_premiums_collected": 0.0,
+    "short_buyback_cost": 0.0,
+    "assignments": 0,
+    "fees": 0.0,
+    "carried_mark_days": 0,
+    "short_exposure_days": 0,
+    "long_exposure_days": 0,
+    "skipped_decisions": {},
+    "annual_returns": {
+      "2023": 0.13217999999999996,
+      "2024": 0.11906233991061499,
+      "2025": 0.01812183302025283
+    }
+  }
+]

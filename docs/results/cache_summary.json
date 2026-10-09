@@ -1,0 +1,32 @@
+{
+  "candidate_contracts": 2597,
+  "downloaded_expiry_groups": 49,
+  "expiry_groups_without_greek_request": [],
+  "expiry_groups_with_observations": 47,
+  "expiry_groups_returning_no_observations": [
+    "calls_2026-10-16.csv",
+    "calls_2026-11-20.csv"
+  ],
+  "contracts_with_any_observation": 1958,
+  "option_daily_rows": 370406,
+  "backtest_period_option_rows": 362300,
+  "backtest_period_positive_two_sided_quotes": 352201,
+  "backtest_period_rows_with_valid_delta": 361812,
+  "backtest_period_rows_with_positive_iv": 361820,
+  "days_with_both_delta_windows": 382,
+  "crossed_quotes": 0,
+  "stock_rows": 773,
+  "stock_backtest_period_rows": 752,
+  "days_with_short_maturity_quotes": 421,
+  "days_with_long_maturity_quotes": 752,
+  "raw_files_checksum_verified": 50,
+  "data_start": "2022-12-01",
+  "data_end": "2025-12-31",
+  "limitations": [
+    "Fixed $40\u2013$300 strikes in $5 increments; monthly calls only, not a full chain.",
+    "Daily summary quotes do not establish intraday quote freshness or executable fills.",
+    "Vendor DELTA and IMP_VOLT are cached where available; their calculation and timestamp conventions need verification. Dividends, deliverables and corporate actions not yet validated.",
+    "Constructed RIC candidates with no data are not assumed to have been listed.",
+    "A positive bid and ask check is not proof of liquidity or contract suitability."
+  ]
+}

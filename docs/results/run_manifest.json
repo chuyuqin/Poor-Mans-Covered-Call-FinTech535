@@ -1,0 +1,39 @@
+{
+  "config": {
+    "start": "2023-01-03",
+    "end": "2025-12-31",
+    "initial_cash": 50000,
+    "contracts": 1,
+    "multiplier": 100,
+    "long_delta_target": 0.8,
+    "long_delta_min": 0.75,
+    "long_delta_max": 0.85,
+    "long_dte_min": 365,
+    "long_dte_max": 540,
+    "long_dte_target": 450,
+    "short_delta_target": 0.25,
+    "short_delta_min": 0.2,
+    "short_delta_max": 0.3,
+    "short_dte_min": 30,
+    "short_dte_max": 45,
+    "short_dte_target": 35,
+    "short_close_dte": 7,
+    "long_close_dte": 180,
+    "max_relative_spread": 0.2,
+    "max_absolute_spread": 2.0,
+    "minimum_signal_day_volume": 1,
+    "option_fee": 0.65,
+    "stock_fee": 0,
+    "extra_spread_fraction": 0,
+    "cash_interest": 0,
+    "max_carried_mark_sessions": 2,
+    "early_assignment_stress": false,
+    "assignment_extrinsic_threshold": 0.05
+  },
+  "source_hashes": {
+    "src/backtest.py": "4429e4e63824c40e5f453b0ecf405d96df7f90bd9fb43c1d2028debbecbac5b5",
+    "config.json": "6ded717645f321bc1d8fa9556e90c2040da66261477e7bee99584e7e38fe54d8",
+    "data/raw/options_normalized.csv.gz": "d2a9b59ccf87a38ec0e73d1e3ffc394af903076bca259fa41d1278fbd430a9f9",
+    "data/raw/amzn_stock_2022_2025.csv": "d5d6aa47f74e8dde039c5c94318af93290ec2786b63f581b5d5759b260d4ef42"
+  }
+}

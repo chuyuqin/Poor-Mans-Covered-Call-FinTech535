@@ -1,0 +1,3 @@
+date,signal_date,strategy,action,instrument,quantity,price,multiplier,fee,cashflow,cash_after,reason
+2023-01-03,2022-12-30,stock,BUY_STOCK,AMZN.O,100,85.85,1,0.0,-8585.0,41415.0,initial_stock
+2025-12-31,2025-12-30,stock,SELL_STOCK,AMZN.O,-100,230.82,1,0.0,23082.0,64497.0,terminal_liquidation
